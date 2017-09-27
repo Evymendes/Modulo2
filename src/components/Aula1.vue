@@ -7,6 +7,7 @@
       <li><router-link to="Aula3">Aula 3</router-link></li>
       <li><router-link to="Aula4">Aula 4</router-link></li>
       <li><router-link to="Aula5">Aula 5</router-link></li>
+      <li><router-link to="Aula6">Aula 6</router-link></li>
 
     </ul>
     <router-link to="/">Inicio</router-link>

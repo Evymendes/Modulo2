@@ -17,6 +17,7 @@
 <router-link to="Aula3"> Aula 3 </router-link>
 <router-link to="Aula4"> Aula 4 </router-link>
 <router-link to="Aula5"> Aula 5 </router-link>
+<router-link to="Aula6"> Aula 6 </router-link>
 
   <p>{{nome}}</p>
   <p>{{idade}}</p>

@@ -6,6 +6,7 @@ import Aula2 from '@/components/Aula2'
 import Aula3 from '@/components/Aula3'
 import Aula4 from '@/components/Aula4'
 import Aula5 from '@/components/Aula5'
+import Aula6 from '@/components/Aula6'
 
 Vue.use(Router)
 
@@ -45,6 +46,13 @@ export default new Router({
      path: '/Aula5',
      name: 'Aula5',
      component: Aula5 
+    },
+
+    {
+     path: '/Aula6',
+     name: 'Aula6',
+     component: Aula6 
     }  
+  
   ]
 })
