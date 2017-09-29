@@ -39,6 +39,7 @@
 		<router-link to="Aula3"> Aula 3 </router-link>		
 		<router-link to="Aula4"> Aula 4 </router-link>
 		<router-link to="Aula5"> Aula 5 </router-link>
+		<router-link to="Aula7"> Aula 7 </router-link>
 	</div>
 	
 </template>
@@ -49,8 +50,8 @@
 	  data () {
 	    return {
 	      titulo: 'Quadribol',
-	      primeirotime: '',
-	      segundotime: '',	      
+	      primeirotime: 0,
+	      segundotime: 0,	      
     	  cliqueprimeirotime: 0,
 	      cliquesegundotimeclique: 0,
 	      ganhador: ''

@@ -13,6 +13,7 @@
 		<router-link to="Aula4"> Aula 4 </router-link>
 		<router-link to="Aula5"> Aula 5 </router-link>
 		<router-link to="Aula6"> Aula 6 </router-link>
+		<router-link to="Aula7"> Aula 7 </router-link>
 	</div>
 	
 </template>
@@ -34,7 +35,7 @@ export default {
 				return this.resposta = 'Só pode casar somente com assinatura do responsável'
 			}
 			if (this.idade >= 18){
-				return this.resposta = 'Você poderá se casar'
+				return this.resposta = 'Você pode se casar'
 			} else {
 				return this.resposta = 'Você não pode casar no Brasil'
 			}
