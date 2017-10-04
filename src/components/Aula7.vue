@@ -22,7 +22,7 @@
 		<button v-on:click="corRosaClique">Dinheiro</button>
 		<button v-on:click="corVermelhoClique">Amor</button><br><br>
 
-		<button v-on:click=resultado>Resultado: {{resultado}}</button><br><br>
+		<button v-on:click="mostrarResultado">Resultado: {{resultado}}</button><br><br>
 
 		<div>
 			<router-link to='/'> Inicio </router-link><br><br>
@@ -33,6 +33,7 @@
 			<router-link to="Aula4"> Aula 5 </router-link>
 			<router-link to="Aula6"> Aula 6 </router-link>
 			<router-link to="Aula8"> Aula 8 </router-link>
+			<router-link to="Aula9"> Aula 9 </router-link>
 		</div>
 	</div>
 </template>
@@ -54,25 +55,25 @@
 				return this.corRosa = this.corRosa +10
 			},
 			corAzulClique() {
-			return this.corAzul = this.corAzul +20
-		},
-			corVermelhoClique() {
-			return this.corVermelho = this.corVermelho +30
-		},
-			corVerdeClique() {
-			return this.corVerde = this.corVerde +40
-		},
+				return this.corAzul = this.corAzul +20
+			},
+				corVermelhoClique() {
+				return this.corVermelho = this.corVermelho +30
+			},
+				corVerdeClique() {
+				return this.corVerde = this.corVerde +40
+			},
 		mostrarResultado() {
 			if (this.corRosa > 0 && this.CorRosa < 40){
-				return this.resultado = '1111111111111111111'
+				return this.resultado = 'Parece ser meiga mais não gosta que toque em suas coisas, e é muito iteligente'
 			}
 			if (this.corAzul > 41 && this.corAzul > 80){
-				return this.resultado = '222222222222'
+				return this.resultado = 'Gosta de uma tecnologogia mas não deixa sua crença e é uma pessoa que é fácil lidar com você.'
 			}
 			if (this.corVerde > 61 && this.corVerde > 120){
-				return this.resultado = '33333333333'
+				return this.resultado = 'Gosta das coisas naturais de ser é livre e forte.'
 			} else {
-				return this.resultado = '444444444444'
+				return this.resultado = 'É uma pessoa dificil mais gosta de estar com os amigos e é fiel'
 			}
 		}
 	}

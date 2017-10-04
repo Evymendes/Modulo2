@@ -9,6 +9,7 @@ import Aula5 from '@/components/Aula5'
 import Aula6 from '@/components/Aula6'
 import Aula7 from '@/components/Aula7'
 import Aula8 from '@/components/Aula8'
+import Aula9 from '@/components/Aula9'
 
 Vue.use(Router)
 
@@ -66,6 +67,12 @@ export default new Router({
       path: '/Aula8',
       name: 'Aula8',
       component: Aula8
+    },
+
+    {
+      path: '/Aula9',
+      name: 'Aula9',
+      component: Aula9
     }
   
   ]

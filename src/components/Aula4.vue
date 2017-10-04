@@ -28,6 +28,8 @@
 		<router-link to="Aula6"> Aula 6 </router-link>
 		<router-link to="Aula7"> Aula 7 </router-link>
 		<router-link to="Aula8"> Aula 8 </router-link>	
+		<router-link to="Aula9"> Aula 9 </router-link>
+
 	</div>
 		
 </template>
