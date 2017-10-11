@@ -1,6 +1,7 @@
 <template>
 	<div>
 		<div>
+		<h1>Aula 5</h1>
 			<h1>Eu já posso casar??</h1>
 			<label>Qual a sua idade?</label>
 			<input v-model="idade" v-on:keyup.enter='possocasar'><br>
@@ -16,6 +17,7 @@
 		<router-link to="Aula7"> Aula 7 </router-link>
 		<router-link to="Aula8"> Aula 8 </router-link>
 		<router-link to="Aula9"> Aula 9 </router-link>
+		<router-link to="Aula10"> Aula 10 </router-link>
 
 	</div>
 	

@@ -1,6 +1,7 @@
 <template>
 	<div>
 		<div>
+		<h1>Aula 6</h1>
 			<h1>Quadribol</h1>
 			<!-- <h2>Escolhe seu Time</h2> -->
 			<h2>Grifinória VS Sonserina</h2>
@@ -42,6 +43,7 @@
 		<router-link to="Aula7"> Aula 7 </router-link>
 		<router-link to="Aula8"> Aula 8 </router-link>
 		<router-link to="Aula9"> Aula 9 </router-link>
+		<router-link to="Aula10"> Aula 10 </router-link>
 
 	</div>
 	

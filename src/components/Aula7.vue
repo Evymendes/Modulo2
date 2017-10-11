@@ -1,5 +1,6 @@
 <template>
 	<div>
+	<h1>Aula 7</h1>
 		<h2>Clique no que tem mais haver com você!</h2>
 		<p>Clique em uma Cor</p>
 		<button v-on:click="corRosaClique">Rosa</button>
@@ -34,6 +35,7 @@
 			<router-link to="Aula6"> Aula 6 </router-link>
 			<router-link to="Aula8"> Aula 8 </router-link>
 			<router-link to="Aula9"> Aula 9 </router-link>
+			<router-link to="Aula10"> Aula 10 </router-link>
 		</div>
 	</div>
 </template>

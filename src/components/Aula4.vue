@@ -1,5 +1,6 @@
 <template>
 	<div>
+	<h1>Aula 4</h1>
 		<h1>Campeonato Brasileiro</h1>
 		<h2><img class="fla" src="https://www.fabricadebandeiras.com.br/img/products/bandeira-flamengo_1_630.jpg"> Flamengo VS Corinthians <img class="cor" src="https://s-media-cache-ak0.pinimg.com/originals/ef/8d/48/ef8d488ef6395ee1fc2303533e530c13.jpg"></h2>
 		<div>
@@ -29,6 +30,7 @@
 		<router-link to="Aula7"> Aula 7 </router-link>
 		<router-link to="Aula8"> Aula 8 </router-link>	
 		<router-link to="Aula9"> Aula 9 </router-link>
+		<router-link to="Aula10"> Aula10 </router-link>
 
 	</div>
 		
