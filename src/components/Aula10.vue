@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div class="inicio">
 		<h1> To Do List </h1>
 		<div  class="header" >
 			<div class="header-fazer">
@@ -13,7 +13,7 @@
 					<li class="fazerli">Estudar Vai Na Web </li>
 				</ul>
 			</div>
-			<div header-fazendo>
+			<div class="header-fazendo">
 				<h2>Fazendo:</h2>
 				<ul class="fazendo">
 					<li>Estudar Enem</li>
@@ -21,7 +21,7 @@
 					<li>Ler o Livro</li>
 				</ul>
 			</div>
-			<div header-feito>
+			<div class="header-feito">
 				<h2>Feito:</h2>
 				<ul class="feito" v-for="rotina in usuario.descricao">
 					<li>
@@ -45,6 +45,7 @@
 		data () {
 			return {
 				recado: "",
+				RecadoSegundo: "",
 				usuario: {
 					descricao: []
 				}
@@ -54,13 +55,16 @@
 					addRecado(recado) {
 						return this.usuario.descricao.push(this.recado),
 							this.recado = ""
-				}
+						}
 			}
 		}
 </script>
 
 <style>
 
+.inicio {
+	text-align: center;
+}
 .header {
 	display: flex;
 	justify-content: center;
@@ -69,6 +73,8 @@
 }
 .header-fazer {
 	width: 33.33%;
+	height: 50%;
+	background-color: black;
 
 }
 .fazer li{
@@ -77,6 +83,8 @@
 
 .header-fazendo{
 	width: 33.33%;
+	background-color: yellow;
+	height: 191.5px;
 }
 
 .fazendo li{
@@ -85,6 +93,8 @@
 
 .header-feito {
 	width: 33.33%;
+	background-color: black;
+	height: 191.5px;
 }
 
 .feito li{
