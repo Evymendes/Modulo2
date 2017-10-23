@@ -13,7 +13,7 @@
 <router-link to="Aula8"> Aula 8 </router-link>
 <router-link to="Aula9"> Aula 9 </router-link>
 <router-link to="Aula10"> Aula 10 </router-link>
-
+<router-link to="Aula11B"> Aula 11 </router-link>
 </div>	
 </template>
 
